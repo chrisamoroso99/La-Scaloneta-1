@@ -1,0 +1,626 @@
+@font-face {
+    font-family: mundial;
+    src: url(../assets/Argentina\ World\ Cup\ 2022\ Font.ttf);
+}
+
+/*---- variables de colores -----*/
+
+$color-principal: #80C0DA;
+$color-footer: #FDC232;
+
+/*-----variables de fuentes----*/
+
+$fuenteprincipal: mundial;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $color-principal;
+}
+
+
+.logo {
+    font-family: mundial;
+    margin-right: 5px;
+}
+
+.scaloneta1 {
+    background-image: url(../assets/img/16711044006509.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.scaloneta2 {
+    background-image: url(../assets/img/16712947922978.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: $fuenteprincipal;
+    text-align: center;
+    margin-top: 30px;
+
+
+}
+
+.parrafo-menu {
+    font-size: x-large !important;
+    text-align: center !important;
+}
+
+footer {
+    background-color: white;
+    justify-items: center;
+    text-align: center;
+
+    .img-footer {
+        width: 50px;
+        height: 60px;
+    }
+}
+
+h2 {
+    font-family: $fuenteprincipal;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: $color-footer;
+    text-shadow: 5px black;
+    padding: 10px 10px 10px 10px;
+}
+
+h3 {
+    font-family: $fuenteprincipal;
+    text-align: center;
+    margin-top: 20px;
+    background-color: $color-footer;
+}
+
+.card {
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.campeon1 {
+    height: 600px;
+    background-image: url(../assets/img/campeondeamerica.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.campeon2 {
+    height: 600px;
+    background-image: url(../assets/img/argentinacampeonfinalissima.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.campeon3 {
+    height: 600px;
+    background-image: url(../assets/img/argentinacampeondelmundo.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-america {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    grid-gap: 10px;
+
+}
+
+
+.america-1 {
+    background-image: url(../assets/img/foto1america.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+    height: 300px;
+
+}
+
+.america-2 {
+    background-image: url(../assets/img/foto2america.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+   
+    height: 300px;
+
+}
+
+.america-3 {
+    background-image: url(../assets/img/foto3america.avif);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+   
+    height: 300px;
+
+}
+
+.america-4 {
+    background-image: url(../assets/img/foto4america.avif);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+    
+    height: 300px;
+
+}
+
+.america-5 {
+    background-image: url(../assets/img/foto6america.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+   
+    height: 300px;
+
+}
+
+.america-6 {
+    background-image: url(../assets/img/campeondeamerica.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+   
+    height: 300px;
+
+}
+
+.america-1:hover {
+    transform: scale(1.05);
+    transition: all 0.9s;
+    filter: none;
+   
+    height: 300px;
+}
+
+.america-2:hover {
+    transform: scale(1.05);
+    transition: all 0.9s;
+    filter: none;
+}
+
+.america-3:hover {
+    transform: scale(1.05);
+    transition: all 0.9s;
+    filter: none;
+}
+
+.america-4:hover {
+    transform: scale(1.05);
+    transition: all 0.9s;
+    filter: none;
+}
+
+.america-5:hover {
+    transform: scale(1.05);
+    transition: all 0.9s;
+    filter: none;
+}
+
+.america-6:hover {
+    transform: scale(1.05);
+    transition: all 0.9s;
+    filter: none;
+}
+
+
+.qatar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    grid-gap: 10px;
+
+}
+
+
+.qatar-1 {
+    background-image: url(../assets/img/mundial1.webp);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+    height: 300px;
+
+}
+
+.qatar-2 {
+    background-image: url(../assets/img/mundial2.jpg_large);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+    height: 300px;
+
+}
+
+.qatar-3 {
+    background-image: url(../assets/img/mundial3.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+    height: 300px;
+
+}
+
+.qatar-4 {
+    background-image: url(../assets/img/mundial4.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+    height: 300px;
+
+}
+
+.qatar-5 {
+    background-image: url(../assets/img/mundial5.avif);
+    background-size: cover;
+    filter: grayscale(100%);
+    height: 300px;
+
+}
+
+.qatar-6 {
+    background-image: url(../assets/img/mundial6.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+    height: 300px;
+
+}
+
+.qatar-1:hover {
+    transform: scale(1.05);
+    transition: all 0.9s;
+    filter: none;
+}
+
+.qatar-2:hover {
+    transform: scale(1.05);
+    transition: all 0.9s;
+    filter: none;
+}
+
+.qatar-3:hover {
+    transform: scale(1.05);
+    transition: all 0.9s;
+    filter: none;
+}
+
+.qatar-4:hover {
+    transform: scale(1.05);
+    transition: all 0.9s;
+    filter: none;
+}
+
+.qatar-5:hover {
+    transform: scale(1.05);
+    transition: all 0.9s;
+    filter: none;
+}
+
+.qatar-6:hover {
+    transform: scale(1.05);
+    transition: all 0.9s;
+    filter: none;
+}
+
+
+
+.grid-finalissima {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    grid-gap: 10px;
+
+}
+
+
+.finalissima-fotos1 {
+    background-image: url(../assets/img/finalissima1.png);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+    height:300px;
+
+}
+
+.finalissima-fotos2 {
+    background-image: url(../assets/img/finalissima2.avif);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+    height:300px;
+
+}
+
+.finalissima-fotos3 {
+    background-image: url(../assets/img/finalissima3.avif);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+    height:300px;
+
+}
+
+.finalissima-fotos4 {
+    background-image: url(../assets/img/finalissima4.webp);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+    height:300px;
+
+}
+
+.finalissima-fotos5 {
+    background-image: url(../assets/img/finalissima5.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+    height:300px;
+
+}
+
+.finalissima-fotos6 {
+    background-image: url(../assets/img/finalissima6.webp);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+    height:300px;
+
+}
+
+.finalissima-fotos1:hover {
+    transform: scale(1.05);
+    transition: all 0.9s;
+    filter: none;
+}
+
+.finalissima-fotos2:hover {
+    transform: scale(1.05);
+    transition: all 0.9s;
+    filter: none;
+}
+
+.finalissima-fotos3:hover {
+    transform: scale(1.05);
+    transition: all 0.9s;
+    filter: none;
+}
+
+.finalissima-fotos4:hover {
+    transform: scale(1.05);
+    transition: all 0.9s;
+    filter: none;
+}
+
+.finalissima-fotos5:hover {
+    transform: scale(1.05);
+    transition: all 0.9s;
+    filter: none;
+}
+
+.finalissima-fotos6:hover {
+    transform: scale(1.05);
+    transition: all 0.9s;
+    filter: none;
+}
+
+section {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+p {
+    text-align: center;
+    margin: 20px;
+    font-size: large;
+}
+
+
+
+.subite1 {
+    background-image: url(../assets/img/E6cfljZWYAAgAes.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.subite2 {
+    background-image: url(../assets/img/argentina-campeon-memes-110721-1202721.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.imagenes-grid-scaloneta {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.origenes1 {
+    grid-column: 1;
+    grid-row: 1;
+    background-image: url(../assets/img/origenes1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px
+}
+
+.origenes2 {
+    grid-column: 2;
+    grid-row: 1;
+    background-image: url(../assets/img/origenes2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px
+}
+
+.origenes3 {
+    grid-column: 1;
+    grid-row: 2;
+    background-image: url(../assets/img/origenes3.webp);
+    background-position: center;
+    background-size: cover;
+    height: 300px
+}
+
+.origenes4 {
+    grid-column: 2;
+    grid-row: 2;
+    background-image: url(../assets/img/origenes4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px
+}
+
+.periodismo1 {
+    grid-column: 1;
+    grid-row: 1;
+    background-image: url(../assets/img/periodistas1.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.periodismo2 {
+    grid-column: 2;
+    grid-row: 1;
+    background-image: url(../assets/img/periodistas2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.periodismo3 {
+    grid-column: 1;
+    grid-row: 2;
+    background-image: url(../assets/img/periodistas4.jpg_large);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.periodismo4 {
+    grid-column: 2;
+    grid-row: 2;
+    background-image: url(../assets/img/periodistas5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+
+.consagracion1 {
+    grid-column: 1;
+    grid-row: 1;
+    background-image: url(../assets/img/finalissima4.webp);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.consagracion2 {
+    grid-column: 2;
+    grid-row: 2;
+    background-image: url(../assets/img/mundial1.webp);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.consagracion3 {
+    grid-column: 1;
+    grid-row: 2;
+    background-image: url(../assets/img/16711044006509.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.consagracion4 {
+    grid-column: 2;
+    grid-row: 1;
+    background-image: url(../assets/img/argentinacampeondelmundo.jfif);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.records1 {
+    grid-column: 1;
+    grid-row: 1;
+    background-image: url(../assets/img/records1.webp);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.records2 {
+    grid-column: 2;
+    grid-row: 2;
+    background-image: url(../assets/img/records2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.records3 {
+    grid-column: 1;
+    grid-row: 2;
+    background-image: url(../assets/img/records3.webp);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.records4 {
+    grid-column: 2;
+    grid-row: 1;
+    background-image: url(../assets/img/records4.webp);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+
+.twitter-tweet{justify-content: center;
+margin: 0 auto;}
+
+
+.redes-scaloneta{font-size: 80px;
+    justify-items: center;
+    text-align: center;
+    
+}
+
+
+
