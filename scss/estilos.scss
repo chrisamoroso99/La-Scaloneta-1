@@ -54,7 +54,7 @@ body {
 
 }
 
-.nav-link:hover{
+.nav-link:hover {
     scale: 1.1;
     transition: 0.2s;
     color: $color-principal !important;
@@ -66,6 +66,14 @@ body {
     background-image: url(../assets/img/E6cfljZWYAAgAes.jpg);
     background-position: center;
     background-size: cover;
+    filter: brightness(0.7);
+
+}
+
+.imagen-principal:hover {
+    filter: brightness(1);
+    transition: all 1s;
+
 }
 
 main {
@@ -124,6 +132,7 @@ h1 {
     border-radius: 20px;
     display: flex;
     align-items: center;
+
 }
 
 .grid-fanpage4 {
@@ -166,6 +175,48 @@ footer {
     text-align: center;
 }
 
+.grid-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    padding: 30px;
+
+}
+
+footer {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.links-footer {
+    font-family: $fuenteparrafos !important;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    text-decoration: none !important;
+    margin: 30px;
+}
+
+.links-footer:visited {
+    text-decoration: none !important;
+}
+
+.links-footer:hover {
+    scale: 1.1;
+    color: $color-footer;
+    transition: 0.2s;
+}
+
+h4 {
+    font-family: $fuenteprincipal;
+    color: white;
+}
+
+.parrafo-footer {
+    color: white;
+    font-family: $fuenteparrafos;
+}
+
 h2 {
     font-family: $fuenteprincipal;
     text-align: center;
@@ -183,12 +234,142 @@ h3 {
     margin-top: 20px;
     background-color: $color-footer;
 }
+.lioScaloni{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    }
+
+.cuerpoTecnico{display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 2, 400px}
+
+.cardaimar{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.cardsamuel{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.cardayala{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.cardtocalli{
+    grid-column: 2;
+    grid-row: 2
+    ;
+}
+
+
+.tocalli{
+    background-image: url(../assets/img/tocalli.webp);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+
+}
+.aimar {
+    background-image: url(../assets/img/aimar_copa_bajo_el_brazo.jpg_242310155.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.samuel {
+    background-image: url(../assets/img/walter-samuel_1440x810_wmk.webp);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.ayala {
+    background-image: url(../assets/img/roberto-ayala_w862.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
 
 .card {
     text-align: center;
     justify-items: center;
     justify-content: center;
     margin: 0 auto;
+    width: 400px;
+    height: 400px;
+}
+
+.grid-jugadores {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 400px);
+
+}
+
+.messi {
+    background-image: url(../assets/img/messi.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+
+.dimaria {
+    background-image: url(../assets/img/dimaria.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+
+.dibu {
+    background-image: url(../assets/img/dibu.avif);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+
+.otamendi {
+    background-image: url(../assets/img/otamendi.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+
+.cuti {
+    background-image: url(../assets/img/cuti.webp);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.macallister {
+    background-image: url(../assets/img/macallister.webp);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.btn{
+    font-family: $fuenteprincipal;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.btn:hover{transition: 0.5s;
+scale: 1.1;}
+
+.btn:visited{
+    text-decoration: none;
+    color: black;
 }
 
 .campeon1 {
@@ -759,7 +940,7 @@ p {
 
     .grid-fanpage3 {
         grid-column: 1;
-        grid-row: 3;
+        grid-row: 4;
         height: 600px;
         border-radius: 20px;
         justify-content: center;
@@ -769,7 +950,7 @@ p {
 
     .grid-fanpage4 {
         grid-column: 1;
-        grid-row: 4;
+        grid-row: 3;
         background-image: url(../assets/img/mundial6.jpg);
         background-position: center;
         background-size: cover;
@@ -784,4 +965,20 @@ p {
     }
 
 
+}
+
+@media only screen and (max-width: 990px) {
+    .cuerpoTecnico {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 400px);
+    }
+
+
+    .grid-jugadores {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 400px);
+    
+    }
 }
