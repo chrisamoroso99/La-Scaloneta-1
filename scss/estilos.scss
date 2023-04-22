@@ -3,6 +3,11 @@
     src: url(../assets/Argentina\ World\ Cup\ 2022\ Font.ttf);
 }
 
+@font-face {
+    font-family: parrafos;
+    src: url(../assets/FuturaPTBook.otf);
+}
+
 /*---- variables de colores -----*/
 
 $color-principal: #80C0DA;
@@ -11,7 +16,7 @@ $color-footer: #FDC232;
 /*-----variables de fuentes----*/
 
 $fuenteprincipal: mundial;
-
+$fuenteparrafos: parrafos;
 
 * {
     margin: 0;
@@ -27,20 +32,40 @@ body {
 .logo {
     font-family: mundial;
     margin-right: 5px;
+    text-shadow: 2px;
+    color: white;
+    text-decoration: none;
+
 }
 
-.scaloneta1 {
-    background-image: url(../assets/img/16711044006509.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 600px;
+.logo:hover {
+    scale: 1.1;
+    transition: all 0.9s;
+    color: $color-footer;
 }
 
-.scaloneta2 {
-    background-image: url(../assets/img/16712947922978.jpg);
-    background-size: cover;
-    background-position: center;
+.logo:visited {
+    text-decoration: none;
+}
+
+.nav-item {
+    font-family: $fuenteprincipal;
+    color: white !important;
+
+}
+
+.nav-link:hover{
+    scale: 1.1;
+    transition: 0.2s;
+    color: $color-principal !important;
+}
+
+.imagen-principal {
     height: 600px;
+    width: 1fr;
+    background-image: url(../assets/img/E6cfljZWYAAgAes.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 main {
@@ -51,24 +76,94 @@ h1 {
     font-family: $fuenteprincipal;
     text-align: center;
     margin-top: 30px;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    color: $color-footer;
 
 
+}
+
+.grid-index {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+
+}
+
+.grid-fanpage1 {
+    grid-column: 1;
+    grid-row: 1;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.grid-fanpage2 {
+    grid-column: 2;
+    grid-row: 1;
+    background-image: url(../assets/img/mundial3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    border-radius: 20px;
+
+}
+
+.grid-fanpage2:hover {
+    scale: 1.1;
+    transition: 0.9s;
+}
+
+.grid-fanpage3 {
+    grid-column: 2;
+    grid-row: 2;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.grid-fanpage4 {
+    grid-column: 1;
+    grid-row: 2;
+    background-image: url(../assets/img/mundial6.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    border-radius: 20px;
+
+}
+
+.grid-fanpage4:hover {
+    scale: 1.1;
+    transition: 0.9s
+}
+
+
+p {
+    font-family: $fuenteparrafos !important;
 }
 
 .parrafo-menu {
-    font-size: x-large !important;
-    text-align: center !important;
+    font-size: x-large;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+b {
+    font-family: $fuenteprincipal;
 }
 
 footer {
-    background-color: white;
+    background-color: black;
     justify-items: center;
     text-align: center;
-
-    .img-footer {
-        width: 50px;
-        height: 60px;
-    }
 }
 
 h2 {
@@ -143,7 +238,7 @@ h3 {
     background-position: center;
     background-size: cover;
     filter: grayscale(100%);
-   
+
     height: 300px;
 
 }
@@ -153,7 +248,7 @@ h3 {
     background-position: center;
     background-size: cover;
     filter: grayscale(100%);
-   
+
     height: 300px;
 
 }
@@ -163,7 +258,7 @@ h3 {
     background-position: center;
     background-size: cover;
     filter: grayscale(100%);
-    
+
     height: 300px;
 
 }
@@ -173,7 +268,7 @@ h3 {
     background-position: center;
     background-size: cover;
     filter: grayscale(100%);
-   
+
     height: 300px;
 
 }
@@ -183,7 +278,7 @@ h3 {
     background-position: center;
     background-size: cover;
     filter: grayscale(100%);
-   
+
     height: 300px;
 
 }
@@ -192,7 +287,7 @@ h3 {
     transform: scale(1.05);
     transition: all 0.9s;
     filter: none;
-   
+
     height: 300px;
 }
 
@@ -345,7 +440,7 @@ h3 {
     background-position: center;
     background-size: cover;
     filter: grayscale(100%);
-    height:300px;
+    height: 300px;
 
 }
 
@@ -354,7 +449,7 @@ h3 {
     background-position: center;
     background-size: cover;
     filter: grayscale(100%);
-    height:300px;
+    height: 300px;
 
 }
 
@@ -363,7 +458,7 @@ h3 {
     background-position: center;
     background-size: cover;
     filter: grayscale(100%);
-    height:300px;
+    height: 300px;
 
 }
 
@@ -372,7 +467,7 @@ h3 {
     background-position: center;
     background-size: cover;
     filter: grayscale(100%);
-    height:300px;
+    height: 300px;
 
 }
 
@@ -381,7 +476,7 @@ h3 {
     background-position: center;
     background-size: cover;
     filter: grayscale(100%);
-    height:300px;
+    height: 300px;
 
 }
 
@@ -390,7 +485,7 @@ h3 {
     background-position: center;
     background-size: cover;
     filter: grayscale(100%);
-    height:300px;
+    height: 300px;
 
 }
 
@@ -612,15 +707,81 @@ p {
 }
 
 
-.twitter-tweet{justify-content: center;
-margin: 0 auto;}
+.twitter-tweet {
+    justify-content: center;
+    margin: 0 auto;
+}
 
 
-.redes-scaloneta{font-size: 80px;
+.redes-scaloneta {
+    font-size: 80px;
     justify-items: center;
     text-align: center;
-    
+
 }
 
 
 
+@media only screen and (max-width: 758px) {
+    .grid-index {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+
+
+    }
+
+    .grid-fanpage1 {
+        grid-column: 1;
+        grid-row: 1;
+        height: 600px;
+        border-radius: 20px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .grid-fanpage2 {
+        background-image: url(../assets/img/mundial3.jpg);
+        grid-column: 1;
+        grid-row: 2;
+        background-position: center;
+        background-size: cover;
+        height: 600px;
+        border-radius: 20px;
+
+    }
+
+    .grid-fanpage2:hover {
+        scale: 1.1;
+        transition: 0.9s;
+    }
+
+    .grid-fanpage3 {
+        grid-column: 1;
+        grid-row: 3;
+        height: 600px;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .grid-fanpage4 {
+        grid-column: 1;
+        grid-row: 4;
+        background-image: url(../assets/img/mundial6.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 600px;
+        border-radius: 20px;
+
+    }
+
+    .grid-fanpage4:hover {
+        scale: 1.1;
+        transition: 0.9s
+    }
+
+
+}
