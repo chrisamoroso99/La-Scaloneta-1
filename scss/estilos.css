@@ -666,14 +666,14 @@ p {
 }
 
 .subite1 {
-  background-image: url(../assets/img/E6cfljZWYAAgAes.jpg);
-  background-position: center;
+  background-image: url(../assets/img/lospibesdelascaloneta.jpg);
+  background-position: top;
   background-size: cover;
   height: 600px;
 }
 
 .subite2 {
-  background-image: url(../assets/img/argentina-campeon-memes-110721-1202721.jpg);
+  background-image: url(../assets/img/lascalonetaunida.avif);
   background-position: center;
   background-size: cover;
   height: 600px;
@@ -694,7 +694,7 @@ p {
   background-image: url(../assets/img/origenes1.jpg);
   background-position: top;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
 .origenes2 {
@@ -703,7 +703,7 @@ p {
   background-image: url(../assets/img/origenes2.jpg);
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
 .origenes3 {
@@ -712,7 +712,7 @@ p {
   background-image: url(../assets/img/origenes3.webp);
   background-position: top;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
 .origenes4 {
@@ -721,7 +721,7 @@ p {
   background-image: url(../assets/img/origenes4.jpg);
   background-position: top;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
 .periodismo1 {
@@ -730,7 +730,7 @@ p {
   background-image: url(../assets/img/periodistas1.jpeg);
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
 .periodismo2 {
@@ -739,16 +739,16 @@ p {
   background-image: url(../assets/img/periodistas2.jpg);
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
 .periodismo3 {
   grid-column: 1;
   grid-row: 2;
   background-image: url(../assets/img/periodistas4.jpg_large);
-  background-position: center;
+  background-position: top;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
 .periodismo4 {
@@ -757,7 +757,7 @@ p {
   background-image: url(../assets/img/periodistas5.jpg);
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
 .consagracion1 {
@@ -766,7 +766,7 @@ p {
   background-image: url(../assets/img/finalissima4.webp);
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
 .consagracion2 {
@@ -775,7 +775,7 @@ p {
   background-image: url(../assets/img/mundial1.webp);
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
 .consagracion3 {
@@ -784,7 +784,7 @@ p {
   background-image: url(../assets/img/campeondeamerica.jpg);
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
 .consagracion4 {
@@ -793,7 +793,7 @@ p {
   background-image: url(../assets/img/argentinacampeondelmundo.jfif);
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
 .records1 {
@@ -802,7 +802,7 @@ p {
   background-image: url(../assets/img/records1.webp);
   background-position: top;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
 .records2 {
@@ -811,16 +811,16 @@ p {
   background-image: url(../assets/img/records2.jpg);
   background-position: top;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
 .records3 {
   grid-column: 1;
   grid-row: 2;
   background-image: url(../assets/img/records3.webp);
-  background-position: top;
+  background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
 .records4 {
@@ -829,7 +829,7 @@ p {
   background-image: url(../assets/img/records4.webp);
   background-position: top;
   background-size: cover;
-  height: 300px;
+  height: 400px;
 }
 
 .twitter-tweet {
@@ -837,10 +837,26 @@ p {
   margin: 0 auto;
 }
 
+.fa-brands {
+  color: white;
+}
+
+.fa-brands:visited {
+  text-decoration: none;
+}
+
+.fa-brands:hover {
+  color: #FDC232;
+  transition: 0.2s;
+  scale: 1.1;
+}
+
 .redes-scaloneta {
-  font-size: 80px;
-  justify-items: center;
-  text-align: center;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 758px) {
