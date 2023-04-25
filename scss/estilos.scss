@@ -92,15 +92,16 @@ h1 {
 }
 
 .grid-index {
-    display: grid;
+    display: grid !important;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
 
 
 }
 
+
 .grid-fanpage1 {
-    grid-column: 1;
+    grid-column: 1; 
     grid-row: 1;
     height: 600px;
     border-radius: 20px;
@@ -108,6 +109,7 @@ h1 {
     align-items: center;
 
 }
+
 
 .grid-fanpage2 {
     grid-column: 2;
@@ -117,13 +119,13 @@ h1 {
     background-size: cover;
     height: 600px;
     border-radius: 20px;
-
 }
 
 .grid-fanpage2:hover {
     scale: 1.1;
     transition: 0.9s;
 }
+
 
 .grid-fanpage3 {
     grid-column: 2;
@@ -135,6 +137,8 @@ h1 {
 
 }
 
+
+
 .grid-fanpage4 {
     grid-column: 1;
     grid-row: 2;
@@ -143,7 +147,6 @@ h1 {
     background-size: cover;
     height: 600px;
     border-radius: 20px;
-
 }
 
 .grid-fanpage4:hover {
@@ -234,45 +237,48 @@ h3 {
     margin-top: 20px;
     background-color: $color-footer;
 }
-.lioScaloni{
+
+.lioScaloni {
     display: flex;
     justify-content: center;
     height: 300px;
-    }
+}
 
-.cuerpoTecnico{display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-template-rows: 2, 400px}
+.cuerpoTecnico {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2, 400px
+}
 
-.cardaimar{
+.cardaimar {
     grid-column: 1;
     grid-row: 1;
 }
 
-.cardsamuel{
+.cardsamuel {
     grid-column: 2;
     grid-row: 1;
 }
 
-.cardayala{
+.cardayala {
     grid-column: 1;
     grid-row: 2;
 }
 
-.cardtocalli{
+.cardtocalli {
     grid-column: 2;
-    grid-row: 2
-    ;
+    grid-row: 2;
 }
 
 
-.tocalli{
+.tocalli {
     background-image: url(../assets/img/tocalli.webp);
     background-size: cover;
     background-position: center;
     height: 300px;
 
 }
+
 .aimar {
     background-image: url(../assets/img/aimar_copa_bajo_el_brazo.jpg_242310155.jpg);
     background-size: cover;
@@ -356,7 +362,7 @@ grid-template-rows: 2, 400px}
     height: 300px;
 }
 
-.btn{
+.btn {
     font-family: $fuenteprincipal;
     display: flex;
     justify-content: center;
@@ -364,10 +370,12 @@ grid-template-rows: 2, 400px}
     text-decoration: none;
 }
 
-.btn:hover{transition: 0.5s;
-scale: 1.1;}
+.btn:hover {
+    transition: 0.5s;
+    scale: 1.1;
+}
 
-.btn:visited{
+.btn:visited {
     text-decoration: none;
     color: black;
 }
@@ -383,7 +391,7 @@ scale: 1.1;}
     height: 600px;
     background-image: url(../assets/img/argentinacampeonfinalissima.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
 }
 
 
@@ -394,13 +402,23 @@ scale: 1.1;}
     background-position: center;
 }
 
+.carrousel-titulos{
+    color: black;
+    padding: 20px;
+}
+
+.parrafo-titulos-scaloneta{
+    background-color: $color-principal;
+
+}
+
 .grid-america {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     justify-content: center;
-    grid-gap: 10px;
+ grid-gap: 10px; 
 
 }
 
@@ -746,7 +764,7 @@ p {
     grid-column: 1;
     grid-row: 1;
     background-image: url(../assets/img/origenes1.jpg);
-    background-position: center;
+    background-position: top;
     background-size: cover;
     height: 300px
 }
@@ -764,7 +782,7 @@ p {
     grid-column: 1;
     grid-row: 2;
     background-image: url(../assets/img/origenes3.webp);
-    background-position: center;
+    background-position: top;
     background-size: cover;
     height: 300px
 }
@@ -773,7 +791,7 @@ p {
     grid-column: 2;
     grid-row: 2;
     background-image: url(../assets/img/origenes4.jpg);
-    background-position: center;
+    background-position: top;
     background-size: cover;
     height: 300px
 }
@@ -836,7 +854,7 @@ p {
 .consagracion3 {
     grid-column: 1;
     grid-row: 2;
-    background-image: url(../assets/img/16711044006509.jpg);
+    background-image: url(../assets/img/campeondeamerica.jpg);
     background-position: center;
     background-size: cover;
     height: 300px;
@@ -855,7 +873,7 @@ p {
     grid-column: 1;
     grid-row: 1;
     background-image: url(../assets/img/records1.webp);
-    background-position: center;
+    background-position: top;
     background-size: cover;
     height: 300px;
 }
@@ -864,7 +882,7 @@ p {
     grid-column: 2;
     grid-row: 2;
     background-image: url(../assets/img/records2.jpg);
-    background-position: center;
+    background-position: top;
     background-size: cover;
     height: 300px;
 }
@@ -873,7 +891,7 @@ p {
     grid-column: 1;
     grid-row: 2;
     background-image: url(../assets/img/records3.webp);
-    background-position: center;
+    background-position: top;
     background-size: cover;
     height: 300px;
 }
@@ -882,7 +900,7 @@ p {
     grid-column: 2;
     grid-row: 1;
     background-image: url(../assets/img/records4.webp);
-    background-position: center;
+    background-position: top;
     background-size: cover;
     height: 300px;
 }
@@ -979,6 +997,6 @@ p {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 400px);
-    
+
     }
 }
