@@ -375,6 +375,19 @@ h3 {
   background-color: #80C0DA;
 }
 
+.listas-div {
+  font-family: parrafos;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  font-size: large;
+}
+.listas-div .lista-titulos {
+  margin: 20px 20px 20px 20px;
+}
+
 .grid-america {
   width: 100%;
   display: grid;
